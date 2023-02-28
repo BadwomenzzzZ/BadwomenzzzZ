@@ -13,7 +13,7 @@ public class Sdk2SmsSend {
 	public static void main( String[] args ) {
 		Client client = Client.getInstance( );
 		// 登录地址需另外提供
-		boolean isLoggedin = client.login( "http://112.35.4.197:15000", "yunyao", "UHad232142#", "云遥动力科技(苏州)有限公司" );
+		boolean isLoggedin = client.login( "http://112.35.4.197:15000", "yunyao", "", "" );
 		if( isLoggedin ) {
 			System.out.println( "Login successed" );
 		} else {
